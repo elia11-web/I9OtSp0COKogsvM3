@@ -1,10 +1,20 @@
-@import './base.css';
-
+@font-face {
+  font-family: 'lateef';
+  src: url(/src/assets/fonts/Lateef-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lateef-xl';
+  src: url(/src/assets/fonts/Lateef-ExtraLight.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 
 #app {
-  /* max-width: 1280px; */
+  
   font-weight: normal;
-  /* background-color: white; */
+  
 }
 * {
   box-sizing: border-box;
@@ -18,11 +28,11 @@ body, html {
 
       
 .unselectable {
-  user-select: none; /* Non-standard syntax for some browsers */
-  -webkit-user-select: none; /* For Safari */
-  -moz-user-select: none; /* For Firefox */
-  -ms-user-select: none; /* For Internet Explorer/Edge */
-  direction: rtl; /* Set direction to right-to-left */
+  user-select: none; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  direction: rtl; 
   text-align: right;
 }
 
